@@ -1,33 +1,33 @@
 {
   "_resourceType": "trigger",
-  "id": "fc139bcd-a16b-4151-a9de-7b7e88e437d6",
-  "_index": 2,
-  "symbol": "trigger_2",
+  "id": "40127fb5-5342-4553-93e2-9ffa5615df8f",
+  "name": "doorway 2",
   "prefabId": "",
-  "name": "",
   "x": 10,
   "y": 8,
+  "symbol": "trigger_7",
+  "prefabScriptOverrides": {},
   "width": 2,
   "height": 1,
-  "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "e5c482c4-82fd-4633-be82-1b2bc398a20c",
       "command": "EVENT_SWITCH_SCENE",
       "args": {
+        "sceneId": "19d9d01a-cf51-4d2b-a2cd-ccc3ca71e119",
         "x": {
           "type": "number",
           "value": 9
         },
         "y": {
           "type": "number",
-          "value": 14
+          "value": 16
         },
-        "direction": "up",
-        "sceneId": "1b7f9ffd-2bbb-470b-9189-c2ac435d2a55",
+        "direction": "",
         "fadeSpeed": "2"
-      }
+      },
+      "id": "e33af0f9-d912-4e3e-9fa8-148ee5642809"
     }
   ],
-  "leaveScript": []
+  "leaveScript": [],
+  "_index": 0
 }
